@@ -14,6 +14,7 @@ else:
  if not os.path.isdir(sys.argv[flag+1]):
     print("%s doesn't exist." % (sys.argv[flag+1]))
     print("Exiting")
+    exit(1)
  else:
     basepath = sys.argv[flag+1]
 
