@@ -18,7 +18,7 @@ else:
  else:
     basepath = sys.argv[flag+1]
 
-basepath = '.'
+
 for entry in os.listdir(basepath):
     if os.path.isfile(os.path.join(basepath, entry)):
         if re.match('.*\.zip',(entry)):
