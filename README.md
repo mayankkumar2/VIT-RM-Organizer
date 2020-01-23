@@ -2,7 +2,7 @@
 A python script to organize a directory having Reference material of teachers.
 
 # How to make it work on linux
-step 1. mkdir ~/bin
+step 1. mkdir ~/bin <br>
 step 2. place vtool.py in ~/bin
 step 3. mv vtool.py vtool
 step 4. chmod 777 vtool
