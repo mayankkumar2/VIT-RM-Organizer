@@ -26,7 +26,7 @@ for entry in os.listdir(basepath):
             continue
         lee = entry.split('_')
         
-        if re.match(".*SEM.*",entry):
+        if re.match("^[A-Z]{3,4}SEM.*",entry):
             file_name = " ".join(lee[4:])
             sem = lee[0]
             course = lee[1]
@@ -46,7 +46,7 @@ for entry in os.listdir(basepath):
                 dest = shutil.move(os.path.join(basepath,entry),os.path.join(basepath,sem,course,course_type,class_code))
 
 
-        if re.match("[A-Z]{3}[0-9]{4}.*",entry):
+        if re.match("^[A-Z]{3}[0-9]{4}.*",entry):
             li =  entry.split('_')
             if li[0] not in new_dict:
                 new_dict[li[0]] = []
