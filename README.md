@@ -23,7 +23,7 @@ A python script to organize a directory having Reference material of teachers.
 
 # Constraints
 <ul>
-<li>If the file names are chaged from the once used by the VTOP Resource manager,the tool will not recognize the file as a reference material.</li>
+<li>If the file names are chaged from the one used by the VTOP Resource manager,the tool will not recognize the file as a reference material.</li>
  </ul>
 
 # How to make it work on linux?
