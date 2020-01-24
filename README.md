@@ -9,21 +9,18 @@ A python script to organize a directory having Reference material of teachers.
   <li>
     The tool doesn't rename the files, so they can be re-sorted if they are ever misplaced.
   </li>
- </ol>
-# Future features
+</ol>  
+
+
+
+# Future Features
 <ul>
-  <li>
-    Course code being automatically being replaced by the name of the course.
-  </li>
-  
-  <li>
-    The class number being replaced by the name of the teacher.
-  </li>
-  <li>
-    The materials being sorted by the date of lecture, followed by the reference number and the lesson.
-  </li>
-  </ul>
-  
+  <li>Course code being automatically being replaced by the name of the course.</li>
+  <li>The class number being replaced by the name of the teacher.</li>
+  <li>The materials being sorted by the date of lecture, followed by the reference number and the lesson.</li>
+</ul>
+
+
 # Constraints
 <ul>
 <li>If the file names are chnaged from the once used by the VTOP Resource manager,the tool will not recognize the file as a reference matrial.</li>
