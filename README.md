@@ -1,7 +1,19 @@
 # VIT-RM-Organizer
 A python script to organize a directory having Reference material of teachers.
+.
+# Features
+<ol>
+  <li>
+   The tool sorts DA's and syllabus and other non-reference material into seperate folder. Outside the root SEMESTER directory
+  </li>
+ </ol>
 
-# How to make it work on linux
+# Constraints
+<ul>
+<li>If the file names are chnaged from the once used by the VTOP Resource manager,the tool will not recognize the file as a reference matrial.</li>
+ </ul>
+
+# How to make it work on linux?
 step 1. mkdir ~/bin <br>
 step 2. place vtool.py in ~/bin<br>
 step 3. mv vtool.py vtool<br>
@@ -10,11 +22,11 @@ step 5. echo "export PATH=\\$PATH:\$HOME/bin" >> ~/.bashrc<br>
 step 6. source .bashrc <br>
 step 7. use the following command on any directory:  vtool "path-to-directory" <br>
 
-# How to make it work on windows
+# How to make it work on windows?
 STEP 1. place vtool.py in the folder to organize and run it in python terminal ( the default open with option).<br>
 
-# How to install on linux
+# How to install on linux?
 ![](https://github.com/mayankkumar2/readmeFiles/raw/master/myimage.gif)
 
-# How to use the tool on linux
+# How to use the tool on linux?
 ![](https://github.com/mayankkumar2/readmeFiles/raw/master/myimage2.gif)
