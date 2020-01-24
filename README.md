@@ -6,6 +6,9 @@ A python script to organize a directory having Reference material of teachers.
   <li>
    The tool sorts DA's and syllabus and other non-reference material into seperate folder. Outside the root SEMESTER directory
   </li>
+  <li>
+    The tool doesn't rename the files, so they can be re-sorted if they are ever misplaced.
+  </li>
  </ol>
 
 # Constraints
