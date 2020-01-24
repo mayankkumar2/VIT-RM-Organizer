@@ -6,7 +6,7 @@ import shutil
 
 flag = 0
 for i,s in enumerate(sys.argv):
-    if re.match('.*vtool\.py',s):
+    if re.match('.*vtool.*',s):
         flag = i
         break
 if len(sys.argv)-1 == i:
@@ -18,6 +18,7 @@ else:
     exit(1)
  else:
     basepath = sys.argv[flag+1]
+    print("Location being organized >>>",basepath)
 
 new_dict = dict()
 for entry in os.listdir(basepath):
