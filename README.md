@@ -14,4 +14,4 @@ step 7. use the following command on any directory:  vtool "path-to-directory" <
 STEP 1. place vtool.py in the folder to organize and run it in python terminal ( the default open with option).<br>
 
 # How to install
-![https://github.com/mayankkumar2/readmeFiles/raw/master/myimage.gif]
+![](https://github.com/mayankkumar2/readmeFiles/raw/master/myimage.gif)
