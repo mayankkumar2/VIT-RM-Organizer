@@ -6,7 +6,7 @@ step 1. mkdir ~/bin <br>
 step 2. place vtool.py in ~/bin<br>
 step 3. mv vtool.py vtool<br>
 step 4. chmod 777 vtool<br>
-step 5. echo "export PATH=\$PATH:\$HOME/bin" >> ~/.bashrc<br>
+step 5. echo "export PATH=\\$PATH:\$HOME/bin" >> ~/.bashrc<br>
 step 6. source .bashrc <br>
 step 7. use the following command on any directory:  vtool "path-to-directory" <br>
 
